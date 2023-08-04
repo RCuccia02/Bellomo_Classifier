@@ -45,11 +45,11 @@ Annotations:
 Il dataset fornito è stato modificato per poter creare un classificatore che facesse rifermento solamente alle feature relative alle opere d'arte, e non al resto dell'immagine. Per fare ciò, dal dataset originale sono state estratte le immagini e la loro classe di appartenenza, e dalle annotazioni è stato ottenuto il bounding box per effettuare il crop dell'immagine solamente sulla porzione interessata. Di seguito un esempio di come sono state modificate le immagini:
 
 Immagine iniziale:
-![alt text](./sourcesReadme/prima.jpg "prima")
+![alt text](./sourcesReadme/prima.png "prima")
 
 Dopo il preprocessing:<br>
-![alt text](./sourcesReadme/dopostele.jpg "dopostele")<br>
-![alt text](./sourcesReadme/dopostatua.jpg "dopostatua")
+![alt text](./sourcesReadme/dopostele.png "dopostele")<br>
+![alt text](./sourcesReadme/dopostatua.png "dopostatua")
 
 Le immagini del museo, com'è possibile notare, possono mostrare diverse opere contemporaneamente, e per questo motivo è stato necessario effettuare un crop per ogni opera presente nell'immagine.
 
@@ -128,6 +128,9 @@ True Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria <br>
 Predicted Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria  |  0.9319925904273987%
 
 ![alt text](./sourcesReadme/plot.png "plot")
+![alt text](./sourcesReadme/imageTest.png "immagine")
+
+Nella root del progetto è presente un video dimostrativo che mostra il funzionamento della demo, con nome "Demo.mov".
 
 ## Codice
 È stato scelto di sfruttare le potenzialità di jupyter notebook per la creazione del codice, in quanto permette di visualizzare i grafici direttamente all'interno del notebook, e di eseguire il codice in maniera modulare.
