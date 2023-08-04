@@ -123,7 +123,7 @@ Verrà inoltre mostrato un plot con la probabilità di ogni classe, e l'immagine
 
 Di seguito degli esempi di output:
 
-Output 1:<br>
+Output 1:✅<br>
 - True Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria <br>
 Predicted Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria  |  0.9319925904273987
 
@@ -131,7 +131,7 @@ Predicted Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria  |  0.9319
 
 <img src="./sourcesReadme/imagesTest/imageTest1.png" width="300" title="imageTest1">
 
-Output 2:<br>
+Output 2:✅<br>
 True Class:  8  |  Adorazione dei Magi
 Predicted Class:  8  |  Adorazione dei Magi  |  0.9999988079071045
 
@@ -139,7 +139,7 @@ Predicted Class:  8  |  Adorazione dei Magi  |  0.9999988079071045
 
 <img src="./sourcesReadme/imagesTest/imageTest2.png" width="300" title="imageTest2">
 
-Output 3:<br>
+Output 3:❌<br>
 True Class:  13  |  Dipinti di Sant'Orsola
 Predicted Class:  14  |  Immacolata e i santi Chiara, Francesco, Antonio, Abate, Barbara e Maria Maddalena  |  0.8449711203575134
 
@@ -147,7 +147,7 @@ Predicted Class:  14  |  Immacolata e i santi Chiara, Francesco, Antonio, Abate,
 
 <img src="./sourcesReadme/imagesTest/imageTest3.png" height="300" title="imageTest3">
 
-Output 4: (Tentativo con immagine esterna al dataset dell'Annunciazione) <br>
+Output 4:✅ (Tentativo con immagine esterna al dataset dell'Annunciazione) <br>
 Predicted Class:  0  |  Annunciazione  |  0.9682266116142273
 
 <img src="./sourcesReadme/plots/plot4.png" width="300" title="plot4" alt="plot4">
