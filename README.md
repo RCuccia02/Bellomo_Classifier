@@ -103,7 +103,7 @@ Hololens:
 ![alt text](./sourcesReadme/resnetConfusionHolo.png "resnetConfusionHolo")
 
 GoPro:
-![alt text](./sourcesReadme/resnetConfusionGoPro.png "resnetConfusionGoPro")
+![alt text](./sourcesReadme/resnetConfusionGopro.png "resnetConfusionGoPro")
 
 Sono stati inoltre calcolati i valori di precision, recall e f1 score per ogni classe, e sono stati ottenuti i seguenti risultati:
 
