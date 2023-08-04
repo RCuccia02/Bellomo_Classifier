@@ -73,11 +73,9 @@ eseguendo da terminale il comando "tensorboard --logdir ./code/runs" è possibil
 
 ### Esperimento 1 - Squeezenet
 
-Per il primo esperimento è stato utilizzato il modello squeezenet, nella sua versione 1_1. Questo modello è stato scelto in quanto risulta essere molto leggero, e quindi permette di allenare il modello in poco tempo. Di seguito i grafici accuracy e loss per il training e il validation set:
+Per il primo esperimento è stato utilizzato il modello squeezenet, nella sua versione 1_1. Questo modello è stato scelto in quanto risulta essere molto leggero, e quindi permette di allenare il modello in poco tempo.
 
-![alt text](./sourcesReadme/squeezenetLoss.png "squeezenetLoss")
-
-In seguito sono state create le 3 confusion matrix per valutare le performance del modello, rispettivamente per il test set Sintetico, Hololens e GoPro:
+Sono state create le 3 confusion matrix per valutare le performance del modello, rispettivamente per il test set Sintetico, Hololens e GoPro:
 
 ![alt text](./sourcesReadme/squeezenetConfusionMatrixSynthetic.png "squeezenetConfusionMatrixSynthetic")
 ![alt text](./sourcesReadme/squeezenetConfusionMatrixHololens.png "squeezenetConfusionMatrixHololens")
@@ -114,8 +112,13 @@ Sono stati inoltre calcolati i valori di precision, recall e f1 score per ogni c
 |  Recall  |     0.9101136033126089 |    0.9381410857898521 |
 |  F1 Score|      0.9136667007144954 |    0.9341699938629497 |
 
+### Accuracy and Loss
+Sono stati calcolati i valori di accuracy e loss per il training e il validation set degli esperimenti, e sono stati ottenuti i seguenti risultati, visualizzabili anche tramite il comando `tensorboard --logdir ./code/runs`:
+![alt text](./sourcesReadme/evaluations.png "evaluations")
 
-
+🔴 Resnet_18 Real<br>
+🟠 Squeezenet_Synthetic<br>
+🔵 Resnet_18 Synthetic<br>
 ## Demo
 È stato creato un file python chiamato "demo.py" che permette di testare il modello con un'immagine scelta dall'utente. Per farlo, è necessario eseguire il comando `python demo.py <path>`. Il programma restituirà in output il nome dell'opera riconosciuta, e la probabilità che l'opera riconosciuta sia quella corretta.
 Nel caso in cui l'immagine facesse parte del dataset, il programma restituirà anche la classe corretta dell'immagine.
