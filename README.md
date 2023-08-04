@@ -105,7 +105,6 @@ Hololens:
 GoPro:
 ![alt text](./sourcesReadme/resnetConfusionGoPro.png "resnetConfusionGoPro")
 
-
 Sono stati inoltre calcolati i valori di precision, recall e f1 score per ogni classe, e sono stati ottenuti i seguenti risultati:
 
 |    |Hololens |   Gopro |
@@ -122,13 +121,39 @@ Sono stati inoltre calcolati i valori di precision, recall e f1 score per ogni c
 Nel caso in cui l'immagine facesse parte del dataset, il programma restituirà anche la classe corretta dell'immagine.
 Verrà inoltre mostrato un plot con la probabilità di ogni classe, e l'immagine stessa.
 
-Di seguito un esempio di output:
+Di seguito degli esempi di output:
 
-True Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria <br>
-Predicted Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria  |  0.9319925904273987%
+Output 1:<br>
+- True Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria <br>
+Predicted Class:  7  |  L'immacolata Concezione e Dio Padre in Gloria  |  0.9319925904273987
 
-![alt text](./sourcesReadme/plot.png "plot")
-![alt text](./sourcesReadme/imageTest.png "immagine")
+<img src="./sourcesReadme/plots/plot1.png" width="300" title="plot1" alt="plot1">
+
+<img src="./sourcesReadme/imagesTest/imageTest1.png" width="300" title="imageTest1">
+
+Output 2:<br>
+True Class:  8  |  Adorazione dei Magi
+Predicted Class:  8  |  Adorazione dei Magi  |  0.9999988079071045
+
+<img src="./sourcesReadme/plots/plot2.png" width="300" title="plot2" alt="plot2">
+
+<img src="./sourcesReadme/imagesTest/imageTest2.png" width="300" title="imageTest2">
+
+Output 3:<br>
+True Class:  13  |  Dipinti di Sant'Orsola
+Predicted Class:  14  |  Immacolata e i santi Chiara, Francesco, Antonio, Abate, Barbara e Maria Maddalena  |  0.8449711203575134
+
+<img src="./sourcesReadme/plots/plot3.png" width="300" title="plot3" alt="plot3">
+
+<img src="./sourcesReadme/imagesTest/imageTest3.png" height="300" title="imageTest3">
+
+Output 4: (Tentativo con immagine esterna al dataset dell'Annunciazione) <br>
+Predicted Class:  0  |  Annunciazione  |  0.9682266116142273
+
+<img src="./sourcesReadme/plots/plot4.png" width="300" title="plot4" alt="plot4">
+
+<img src="./sourcesReadme/imagesTest/imageTest4.png" width="300" title="imageTest4">
+
 
 Nella root del progetto è presente un video dimostrativo che mostra il funzionamento della demo, con nome "Demo.mov".
 
