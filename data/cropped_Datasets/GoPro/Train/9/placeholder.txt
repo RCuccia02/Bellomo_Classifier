@@ -1,0 +1,1 @@
+Questo file è un placeholder che permette il caricamento della struttura delle cartelle su github senza caricare il dataset.
